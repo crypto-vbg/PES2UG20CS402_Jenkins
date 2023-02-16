@@ -15,7 +15,7 @@ pipeline {
     }
     post {
         always {
-            echo 'Pipeline completed'
+            ech 'Pipeline completed'
         }
         failure {
             echo 'Pipeline failed'
